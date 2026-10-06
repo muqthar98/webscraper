@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: google-maps-lead-scraper
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
